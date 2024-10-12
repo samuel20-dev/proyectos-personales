@@ -81,4 +81,7 @@
    .album-item {
       margin-bottom: 2rem;
    }
+   .album-cover {
+      width: 79vw;
+   }
 }
