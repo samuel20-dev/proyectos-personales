@@ -41,7 +41,7 @@ const PlayList = () => {
       <div className="playlist">
          <header className="playlist-header">
             <img
-               src="/src/assets/images/imgCancion1.jpg"
+               src="/images/imgCancion1.jpg"
                alt="La Lista Pop"
                className="playlist-cover"
             />

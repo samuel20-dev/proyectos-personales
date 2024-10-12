@@ -7,37 +7,37 @@ const albums = [
       id: 1,
       title: "Un Verano Sin Ti",
       artist: "Bad Bunny",
-      cover: "/src/assets/images/imgCancion1.jpg",
+      cover: "/images/imgCancion1.jpg",
    },
    {
       id: 2,
       title: "nadie sabe lo que va a pasar mañana",
       artist: "Bad Bunny",
-      cover: "/src/assets/images/imgCancion2.jpg",
+      cover: "/images/imgCancion2.jpg",
    },
    {
       id: 3,
       title: "FERXXOCALIPSIS",
       artist: "Feid",
-      cover: "/src/assets/images/imgCancion3.png",
+      cover: "/images/imgCancion3.png",
    },
    {
       id: 4,
       title: "Fórmula, Vol. 2 (Deluxe Edition)",
       artist: "Romeo Santos",
-      cover: "/src/assets/images/imgCancion4.png",
+      cover: "/images/imgCancion4.png",
    },
    {
       id: 5,
       title: "MAÑANA SERÁ BONITO",
       artist: "KAROL G",
-      cover: "/src/assets/images/imgCancion5.png",
+      cover: "/images/imgCancion5.png",
    },
    {
       id: 6,
       title: "Vise Versa",
       artist: "Rauw Alejandro",
-      cover: "/src/assets/images/imgCancion6.jpg",
+      cover: "/images/imgCancion6.jpg",
    },
 ];
 
