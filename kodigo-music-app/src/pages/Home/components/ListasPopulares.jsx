@@ -7,32 +7,32 @@ export const ListasPopulares = () => {
       {
          name_list: "Populares Pop",
          descripcion: "Los éxitos del pop latino con Shakira",
-         cover: "/src/assets/images/imagenListaPop.jpg",
+         cover: "/images/imagenListaPop.jpg",
       },
       {
          name_list: "Populares Rock",
          descripcion: "Los éxitos del rock",
-         cover: "/src/assets/images/imagenListaRock.jpg",
+         cover: "/images/imagenListaRock.jpg",
       },
       {
          name_list: "Populares Salsa",
          descripcion: "Los éxitos de salsa",
-         cover: "/src/assets/images/imagenListaSalsa.jpg",
+         cover: "/images/imagenListaSalsa.jpg",
       },
       {
          name_list: "Populares Instrumental",
          descripcion: "Los éxitos instrumentales",
-         cover: "/src/assets/images/imagenListaInstrum.jpg",
+         cover: "/images/imagenListaInstrum.jpg",
       },
       {
          name_list: "Populares Electrónica",
          descripcion: "Los éxitos de música electronica",
-         cover: "/src/assets/images/imagenListaElect.jpg",
+         cover: "/images/imagenListaElect.jpg",
       },
       {
          name_list: "Populares Jazz",
          descripcion: "Los éxitos de música jazz",
-         cover: "/src/assets/images/imagenListaJaz.jpg",
+         cover: "/images/imagenListaJaz.jpg",
       },
    ];
 
