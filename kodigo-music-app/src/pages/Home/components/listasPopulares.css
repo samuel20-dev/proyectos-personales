@@ -74,11 +74,17 @@
 }
 
 /* Media querys 375px*/
-@media (max-width: 400px) {
+@media (max-width: 415px) {
    .lista-grid {
       grid-template-columns: 1fr;
    }
    .lista-item {
       margin-bottom: 2rem;
+   }
+   .lista-cover {
+      width: 79vw;
+   }
+   .popular-listas-header {
+      padding: 0 1.3rem;
    }
 }

@@ -33,3 +33,9 @@ body {
 .main-content {
    flex: 1;
 }
+
+@media (max-width: 415px) {
+   .app {
+      width: 100vw;
+   }
+}
