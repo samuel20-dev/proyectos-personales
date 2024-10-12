@@ -7,7 +7,7 @@ export const ListasPopulares = () => {
       {
          name_list: "Populares Pop",
          descripcion: "Los éxitos del pop latino con Shakira",
-         cover: "../../../../public/images/imagenListaPop.jpg",
+         cover: "/images/imagenListaPop.jpg",
       },
       {
          name_list: "Populares Rock",
