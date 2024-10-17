@@ -1,7 +1,12 @@
 import "./assets/css/App.css";
+import { TasksList } from "./pages/tasks/TasksList";
 
 function App() {
-   return <h1>App</h1>;
+   return (
+      <div>
+         <TasksList />
+      </div>
+   );
 }
 
 export default App;
