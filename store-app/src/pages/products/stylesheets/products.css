@@ -120,6 +120,10 @@ tr:nth-child(even) {
       max-width: 100%;
    }
 
+   body {
+      padding: 0;
+   }
+
    form {
       grid-template-columns: 1fr;
    }
