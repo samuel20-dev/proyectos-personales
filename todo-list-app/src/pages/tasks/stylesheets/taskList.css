@@ -1,0 +1,131 @@
+.task-list {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+.task-list h2 {
+   text-align: center;
+   color: #333;
+   margin-bottom: 20px;
+   font-size: 2em;
+}
+
+.task-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   gap: 20px;
+}
+
+.task-card {
+   background-color: #3498db;
+   border-radius: 12px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   display: flex;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.task-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.task-checkbox {
+   flex-shrink: 0;
+   margin-right: 15px;
+}
+
+.task-content {
+   flex-grow: 1;
+}
+
+.task-card h3 {
+   margin-top: 0;
+   color: #2c3e50;
+   font-size: 1.2em;
+}
+
+.task-card p {
+   color: #34495e;
+   font-size: 0.9em;
+   line-height: 1.5;
+   margin-bottom: 15px;
+}
+
+.task-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.priority {
+   font-size: 0.8em;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.completed-tag {
+   background-color: #2ecc71;
+   color: white;
+   padding: 4px 8px;
+   border-radius: 12px;
+   font-size: 0.8em;
+}
+
+.priority-Alta {
+   background-color: #fb8181;
+}
+
+.priority-Media {
+   background-color: #ece381;
+}
+
+.priority-Baja {
+   background-color: #a5ead6;
+}
+
+.complete-btn {
+   background: none;
+   border: none;
+   cursor: pointer;
+   padding: 0;
+}
+
+.checkbox {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   border: 2px solid #3498db;
+   border-radius: 4px;
+   transition: all 0.3s ease;
+}
+
+.complete-btn:hover .checkbox {
+   background-color: rgba(52, 152, 219, 0.2);
+}
+
+.checkbox.checked {
+   background-color: #3498db;
+   position: relative;
+}
+
+.checkbox.checked::after {
+   content: "✓";
+   font-size: 18px;
+   color: white;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+   .task-grid {
+      grid-template-columns: 1fr;
+   }
+
+   .task-card {
+      padding: 15px;
+   }
+}

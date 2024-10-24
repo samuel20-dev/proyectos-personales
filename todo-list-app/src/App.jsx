@@ -1,11 +1,19 @@
-import "./assets/css/App.css";
-import { TasksList } from "./pages/tasks/TasksList";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { TaskList } from "./pages/tasks/components/TaskList";
+import { NewTaskForm } from "./pages/tasks/components/NewTaskForm";
+import TaskDashboard from "./pages/tasks/TaskDashboard";
 
 function App() {
    return (
-      <div>
-         <TasksList />
-      </div>
+      <>
+         <BrowserRouter>
+            <Routes>
+               <Route path="/" element={<TaskDashboard />} />
+               <Route path="/taskList" element={<TaskList />} />
+               <Route path="/newTaskForm" element={<NewTaskForm />} />
+            </Routes>
+         </BrowserRouter>
+      </>
    );
 }
 
